@@ -68,7 +68,9 @@ h1,h2,h3,h4,h5,h6,ul,ol,p{
 }
 /* --------------------- navbar part end ----------------------- */
 /* --------------------- banner part start --------------------  */
-
+#banner{
+    position: relative;
+}
 .banner_text h1{
     width: 586px;
     font-size: 90px;
@@ -76,6 +78,7 @@ h1,h2,h3,h4,h5,h6,ul,ol,p{
     font-family: var(--ubuntu);
     color: var(--brand_color);
     text-transform: uppercase;
+    margin-top: 84px;
 }
 .banner_text h1 span{
     font-weight: 700;
@@ -152,11 +155,72 @@ h1,h2,h3,h4,h5,h6,ul,ol,p{
     transform: scale(0.95);
     transition-duration: 0.3s;
   }
-  
-/* --------------------- banner part end ----------------------- */
-/* --------------------- fontLinks part start --------------------  */
+  .banner_buttons{
+    display: flex;
+    gap: 50px;
+  }
+  .banner_buttons .videoP{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--ubuntu);
+    color: #414449;
+    width: 87px;
+    margin-top: 0;
+  }
 
-/* --------------------- fontLinks part end ----------------------- */
+  .banner_buttons a{
+    animation: ghoro linear infinite 3s;
+  }
+
+  @keyframes ghoro{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+  }
+  .banner_image {
+    width: 856px;
+    position:absolute;
+    top: 0;
+    right: 0;
+  }
+  
+
+/* --------------------- banner part end ----------------------- */
+/* --------------------- counter part start --------------------  */
+
+
+.counter_singel_box{
+    width: 174px;
+    height: 137px;
+    border-radius: 7px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-top: 209px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 18px;
+}
+.counter_singel_box h2{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--ubuntu);
+    color: var(--brand_color);
+}
+.counter_singel_box  h2 span{
+    font-size: 40px;
+}
+.counter_singel_box  p{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: var(--ubuntu);
+    color: var(--brand_color);
+}
+
+/* --------------------- counter part end ----------------------- */
 /* --------------------- fontLinks part start --------------------  */
 
 /* --------------------- fontLinks part end ----------------------- */
