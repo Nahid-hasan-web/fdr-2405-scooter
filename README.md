@@ -44,7 +44,6 @@ To get this project running locally, follow these steps:
     ```bash
     git clone [https://github.com/Nahid-hasan-web/fdr-2405-scooter.git](https://github.com/Nahid-hasan-web/fdr-2405-scooter.git)
     ```
-2.  **Set up the database:**
     * Create a MySQL database.
     * Import the database schema (if a `.sql` file is provided in the repository). **(Please confirm if a database schema file exists and mention its location.)**
     * Configure the database connection details in your PHP configuration file (e.g., `config.php` or similar). **(Please specify the location and relevant configuration variables.)**
